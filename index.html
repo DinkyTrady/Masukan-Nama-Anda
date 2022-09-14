@@ -11,10 +11,14 @@
 
 <script>
   
-  alert('Tolong Masukan Nama');
-  const val = prompt('Masukan Nama Anda');
+  const val = confirm('Masukan Nama');
     if (val) {
-      document.writeln(`<h3> Aku Cinta Kamu, ${val}😘😘 </h3>`)
+      const vol = prompt('Masukan Nama Anda')
+      if (vol) {
+        document.writeln(`<h3>Aku Cinta Kamu, ${vol}😘😘</h3>`)
+      } else {
+        alert('Kontol Lo! Malah gak Masukin')
+      }
     } else {
         alert('Kontol Lo! Malah gak Masukin')
   }
