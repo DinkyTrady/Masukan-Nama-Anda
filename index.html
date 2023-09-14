@@ -1,73 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head lang="id">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Percabangan if else</title>
+    <style>
+      * {
+        color: white;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Percabangan if else</title>
-  <style>
-    * {
-      color: white;
-      text-decoration: none;
-      margin: 0;
-      padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    body {
-      margin: 0;
-      padding: 0;
-    }
-    
-    h2, h3 {
-      color: black;
-      font-size: 34px;
-      text-align: center;
-      margin-top: 100px;
-    }
-    
-    footer {
-      background-color: black;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 70px;
-      text-align: center;
-    }
-    
-    footer p {
-      font-size: 20px;
-      line-height: 70px;
-    }
-    
-  </style>
-</head>
+      body {
+        margin: 0;
+        padding: 0;
+      }
 
-<body>
-  
-  <script>
-    const a = confirm(`Tolong Diisi Ya!😁`)
-    if (a) {
-      const b = prompt("Tolong Diisi Ya!", );
-      if (b) {
-        if (b == Number(b)) {
-          document.writeln(`<h3>Njirr, kenapa angka \(${b}\)</h3>`);
-        }  else if (b) {
-        document.writeln(`<h2>Aku Cinta Kamu, ${b}😘❤️</h2>`);
+      h2,
+      h3 {
+        color: black;
+        font-size: 34px;
+        text-align: center;
+        margin-top: 100px;
+      }
+
+      footer {
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 70px;
+        text-align: center;
+      }
+
+      footer p {
+        font-size: 20px;
+        line-height: 70px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script>
+      const a = confirm(`Tolong Diisi Ya!😁`);
+      if (a) {
+        const b = prompt("Tolong Diisi Ya!");
+        if (b) {
+          if (b == Number(b)) {
+            document.writeln(`<h3>Njirr, kenapa angka \(${b}\)</h3>`);
+          } else if (b) {
+            document.writeln(`<h2>Aku Cinta Kamu, ${b}😘❤️</h2>`);
+          } else {
+            alert(`Kenapa malah gak diisi? :\(`);
+          }
         } else {
-        alert(`Kenapa malah gak diisi? :\(`);
+          alert("Kenapa malah gak diisi?");
         }
       } else {
-        alert('Kenapa malah gak diisi?')
+        alert(`Kenapa malah gak pencet ok? :\(`);
       }
-    } else {
-      alert(`Kenapa malah gak pencet ok? :\(`);
-    }
-  </script>
-  <footer>
-    <p>Copyright by <a href="https://www.facebook.com/SaputraSanZs" target="_blank"><b>@Randy</b></a></p>
-  </footer>
-</body>
-
+    </script>
+    <footer>
+      <p>
+        Copyright by
+        <a href="https://www.facebook.com/SaputraSanZs" target="_blank"
+          ><b>@Randy</b></a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
